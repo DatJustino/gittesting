@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Cat extends Animal{
   Cat(String name) {
   super(name);
@@ -7,6 +9,11 @@ public class Cat extends Animal{
   @Override
   public void makeSound() {
     System.out.println("Meww");
+  }
+
+  @Override
+  public void moodSetting() {
+    System.out.println("Mood is meow.");
   }
 
   @Override

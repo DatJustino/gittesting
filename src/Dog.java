@@ -9,6 +9,11 @@ public class Dog extends Animal {
   }
 
   @Override
+  public void moodSetting() {
+    System.out.println("mood is good!");
+  }
+
+  @Override
     public void makeSound () {
       System.out.println("Wuff.");
     }
