@@ -4,6 +4,8 @@ public class Main {
     Cat catto = new Cat("catto");
     doggo.makeSound();
     catto.makeSound();
+    catto.eat("CattoFoodo");
+    doggo.eat("DoggoFoodo");
 
   }
 }
